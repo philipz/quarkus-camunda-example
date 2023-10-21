@@ -3,8 +3,8 @@ package org.acme;
 import org.camunda.bpm.engine.RepositoryService;
 import org.camunda.bpm.quarkus.engine.extension.event.CamundaEngineStartupEvent;
 
-import javax.enterprise.event.Observes;
-import javax.inject.Inject;
+import jakarta.enterprise.event.Observes;
+import jakarta.inject.Inject;
 
 public class Deployments {
 
